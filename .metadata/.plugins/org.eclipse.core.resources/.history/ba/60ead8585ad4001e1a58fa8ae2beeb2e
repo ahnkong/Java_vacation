@@ -1,0 +1,23 @@
+package collection;
+
+import java.util.HashSet;
+
+public class HashSetTest {
+	public static void main(String[] args) {
+		
+		HashSet<String> animalSet = new HashSet<>();
+		
+		animalSet.add("강아지");
+		animalSet.add("호랑이");
+		animalSet.add("여우");
+		animalSet.add("용");
+		animalSet.add("수달");
+		animalSet.add("고양이");
+		animalSet.add("독수리");
+		System.out.println(animalSet.add("판다"));	
+		System.out.println(animalSet.add("수달"));	
+		
+		System.out.println(animalSet.toString());
+		
+	}
+}
